@@ -1,18 +1,19 @@
 import Image from 'next/image';
-import logo from './public/Logo.png';
+
 
 const Navbar = () => {
   return (
     <div>
       <div className='w-[1920px] h-[92px] bg-[#043873] py-4 px-[220px] flex justify-between item-center '>
        <div> 
-          {/* <Image 
-            src={logo}
+           <Image 
+            src="/logo.png"
             alt='logo'
             width={191}
             height={34}
+            className='w-[191px] h-[34px] '
           />
-          */}
+          
         </div> 
         <div className='w-[737.5px] h-[60px] flex justify-between items-center '>
           <div className='w-[549px] h-23px '>
