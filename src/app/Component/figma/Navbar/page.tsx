@@ -11,7 +11,7 @@ const Navbar = () => {
             alt='logo'
             width={191}
             height={34}
-            className='w-[191px] h-[34px] '
+            className='w-[191px] h-[34px] items-center '
           />
           
         </div> 
