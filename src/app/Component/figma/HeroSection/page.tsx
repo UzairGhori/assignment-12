@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -10,8 +11,8 @@ const Hero = () => {
         <p className='text-white text-[15px] font-extralight'>Project management software that enables your team to collaborate, plan,<br />
         analyze and manage everyday tasks</p>
 </div>
-<button className='w-[219px] h-[63px] rounded-lg p-5 gap-[10px] text-white font-light bg-[#4F9CF9] '>
-    Try Whitepace free ->
+<button className='flex w-[219px] h-[63px] rounded-lg p-5 gap-[10px] text-white font-light bg-[#4F9CF9] '>
+    Try Whitepace free <IoIosArrowRoundForward className='mt-[6px] w-6  font-bold'/>
 </button>
 
 </div>
